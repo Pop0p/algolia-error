@@ -2,8 +2,6 @@
 
 **Problem:** Starting from Algolia client **7.39.1**, response deserialization fails when performing multiple queries search.
 
-**Affected versions:** 7.39.1+
-
 The application performs:
 
 1. One main query to retrieve products with inactive facets (facets not currently used as filters)
